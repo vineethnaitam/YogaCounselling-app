@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".weight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fem"
+            android:layout_width="234dp"
+            android:layout_height="231dp"
+            android:src="@drawable/femalefat"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="182dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/fem"
+            android:text="FEMALE"
+            android:layout_marginStart="20dp"/>
+
+        <ImageView
+            android:id="@+id/men"
+            android:layout_width="wrap_content"
+            android:layout_height="187dp"
+            android:layout_below="@id/one"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/malefat" />
+        <Button
+            android:id="@+id/two"
+            android:layout_width="182dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/men"
+            android:text="MALE"
+            android:layout_marginStart="210dp"
+            />
+    </RelativeLayout>
+
+</ScrollView>

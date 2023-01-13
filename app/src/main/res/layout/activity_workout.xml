@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".workout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="457dp"
+            android:src="@drawable/he1" />
+
+        <TextView
+            android:id="@+id/writ"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="-80dp"
+            android:background="@drawable/backbutton"
+            android:text="3 Sets of 15reps "
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done1"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:layout_below="@id/writ"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/he2" />
+
+        <TextView
+            android:id="@+id/writ1"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done1"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/backbutton"
+            android:text="3 Sets of 15reps "
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done2"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he3"
+            android:layout_below="@id/writ1"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ2"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done2"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="2 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done3"
+            android:layout_width="match_parent"
+            android:layout_height="457dp"
+            android:src="@drawable/he4"
+            android:layout_below="@id/writ2"/>
+
+        <TextView
+            android:id="@+id/writ3"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done3"
+            android:layout_marginStart="100dp"
+            android:text="2 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-45dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done4"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:layout_below="@id/writ3"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/he5" />
+
+        <TextView
+            android:id="@+id/writ4"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done4"
+            android:layout_marginStart="100dp"
+            android:text="3 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done5"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he6"
+            android:layout_below="@id/writ4"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ5"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done5"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-12dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done6"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he7"
+            android:layout_below="@id/writ5"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ6"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done6"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done7"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he8"
+            android:layout_below="@id/writ6"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ7"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done7"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="2 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done8"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he18"
+            android:layout_below="@id/writ7"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ8"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done8"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done9"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he19"
+            android:layout_below="@id/writ8"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ9"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done9"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="2 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done10"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he9"
+            android:layout_below="@id/writ9"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ10"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done10"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="2 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done11"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he10"
+            android:layout_below="@id/writ10"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ11"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done11"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="4 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-12dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done12"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he11"
+            android:layout_below="@id/writ11"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ12"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done12"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done13"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he12"
+            android:layout_below="@id/writ12"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ13"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done13"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done14"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he13"
+            android:layout_below="@id/writ13"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ14"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done14"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="2 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done15"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he14"
+            android:layout_below="@id/writ14"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ15"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done15"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done16"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he15"
+            android:layout_below="@id/writ15"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ16"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done16"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-2dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done17"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he16"
+            android:layout_below="@id/writ16"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ17"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done17"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-2dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done18"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he17"
+            android:layout_below="@id/writ17"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ18"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done18"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="2 Sets of 15reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done19"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/he20"
+            android:layout_below="@id/writ18"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/writ19"
+            android:layout_width="180dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/done19"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="3 Sets of 10reps "
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-8dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

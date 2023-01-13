@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".donar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" DETAILS "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="120dp"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="105dp"
+        android:layout_height="78dp"
+        android:src="@drawable/tick"
+        android:layout_marginStart="230dp"/>
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/backgroundbox"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Name: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="223dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="  Sai ram Restaurant"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/backgroundbox"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Food: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:background="@null"
+            android:hint="  Daal fry, Chapati, Rice, potato \nCurry, Gualb Jamun, Checken.\n"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/backgroundbox"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Quantity: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@null"
+            android:hint="  30 Members Food                        "
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/backgroundbox"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Adress: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="223dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="  Sai ram Restaurant,Arni\n Road, Bibwewadi 411037,\n Pune\n\n"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add"
+        android:layout_width="405dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/backgroundbox"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Date: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="223dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="  2 January "
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Upload"
+        android:layout_below="@+id/add"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="150dp"/>
+
+</RelativeLayout>

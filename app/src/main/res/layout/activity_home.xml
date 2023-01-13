@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/yoga"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="WELCOME\n IN WORLD OF YOGA"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="146dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/fitness" />
+
+    <Button
+        android:id="@+id/btnfitness"
+        android:layout_width="112dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/imageview"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="3dp"
+        android:text="Yoga Fitness"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="165dp"
+        android:layout_height="122dp"
+        android:layout_below="@id/btnfitness"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="45dp"
+        android:src="@drawable/yogainfo"
+        />
+
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview1"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="3dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Yoga info."
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="161dp"
+        android:layout_height="112dp"
+        android:layout_below="@id/btninfo"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/diet" />
+
+    <Button
+        android:id="@+id/btndiet"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview2"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="3dp"
+        android:text="Diet\n Nutrition"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+
+
+</RelativeLayout>

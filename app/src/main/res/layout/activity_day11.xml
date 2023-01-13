@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="457dp"
+            android:src="@drawable/ex18" />
+
+        <Button
+            android:id="@+id/writ"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_below="@id/done"
+            android:layout_marginStart="100dp"
+            android:text="2 Sets"
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-120dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done1"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:layout_below="@id/writ"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ex17" />
+
+        <Button
+            android:id="@+id/writ1"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_below="@id/done1"
+            android:layout_marginStart="100dp"
+            android:text="3 Sets"
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="4dp"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/done2"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/ex16"
+            android:layout_below="@id/writ1"
+            android:layout_marginTop="80dp"/>
+
+        <Button
+            android:id="@+id/writ2"
+            android:layout_width="264dp"
+            android:layout_height="93dp"
+            android:layout_below="@id/done2"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="2 Sets"
+            android:textColor="@color/white"
+            android:background="@drawable/backbutton"
+            android:layout_marginTop="-2dp"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

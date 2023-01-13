@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yogs"
+    tools:context=".Exersise1">
+
+    <ImageView
+        android:id="@+id/yoga"
+        android:layout_width="165dp"
+        android:layout_height="190dp"
+        android:src="@drawable/entry1"
+        android:layout_marginStart="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnyo"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:layout_below="@id/yoga"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="-5dp"
+        android:text="YOGA"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:id="@+id/fit"
+        android:layout_width="220dp"
+        android:layout_height="203dp"
+        android:layout_below="@id/btnyo"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="-264dp"
+        android:src="@drawable/entry2" />
+
+    <Button
+        android:id="@+id/btnwork"
+        android:layout_width="211dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/fit"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-9dp"
+        android:text="FITNESS"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/doc"
+        android:layout_width="220dp"
+        android:layout_height="203dp"
+        android:layout_below="@id/btnwork"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/doctors" />
+
+    <Button
+        android:id="@+id/docter"
+        android:layout_width="189dp"
+        android:layout_height="86dp"
+        android:layout_below="@id/doc"
+        android:layout_marginStart="110dp"
+        android:text="Doctor consultation"
+        android:textSize="18dp" />
+
+
+    </RelativeLayout>

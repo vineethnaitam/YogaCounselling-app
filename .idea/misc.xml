@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/drawable/backbutton.xml" value="0.2703125" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/drawable/backgroundbox.xml" value="1.2035714285714285" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.1" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/drawable/ic_caller.xml" value="0.1" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/drawable/ic_show_password_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_athlete.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_call.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_call1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_calldemo.xml" value="0.152" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_cinfo2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_counter.xml" value="0.1" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day1.xml" value="0.11627906976744186" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day11.xml" value="0.14204545454545456" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day111.xml" value="0.14204545454545456" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day2.xml" value="0.11627906976744186" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day22.xml" value="0.14204545454545456" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day222.xml" value="0.12077294685990338" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day3.xml" value="0.11627906976744186" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day33.xml" value="0.12077294685990338" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_day333.xml" value="0.12077294685990338" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_diet.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_donar.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_donation.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_dregister.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_exersise1.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_exersise2.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_exersise3.xml" value="0.4" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_exersise4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_exersise5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_female.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_female1.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_female2.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_homepage.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_information.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_knowledge.xml" value="0.12" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_login2.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_male.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_male1.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_male2.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_muscle.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_ngos.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_number.xml" value="0.4" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_scrolling2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_scrollview.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_second.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_splashscreen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_verify.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_weight.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/login/app/src/main/res/layout/activity_workout.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

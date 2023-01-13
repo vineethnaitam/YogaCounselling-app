@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Exersise2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/shapl"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:background="@drawable/backgroundbox"
+            android:layout_marginTop="20dp"
+            android:text="Note: If in case you have any injury, please consult a doctor before performing it. "
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/good"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:src="@drawable/prenatalyoga"
+            android:layout_below="@+id/shapl"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/good1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREGNANCY YOGA"
+            android:textStyle="bold"
+            android:layout_below="@id/good"/>
+
+        <ImageView
+            android:id="@+id/good2"
+            android:layout_width="400dp"
+            android:layout_height="192dp"
+            android:layout_below="@id/good1"
+            android:src="@drawable/yogawomen"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/good3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOGA(WOMEN)"
+            android:textStyle="bold"
+            android:layout_below="@id/good2"
+            android:backgroundTint="@color/red"/>
+
+        <ImageView
+            android:id="@+id/good4"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_below="@id/good3"
+            android:src="@drawable/menyoga"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:id="@+id/good5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOGA(MEN)"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/good4"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/yellow"/>
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>

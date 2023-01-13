@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/log"
+    android:padding="10dp"
+    tools:context=".loginActivity2">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="302dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/login" />
+
+
+    <EditText
+        android:id="@+id/usernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/imageview"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameLogin"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+
+        android:longClickable="false"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/ShowHidepass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameLogin"
+        android:layout_marginStart="355dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ic_show_password_24" />
+
+
+    <CheckBox
+        android:id="@+id/look"
+        android:layout_width="145dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/usernameLogin"
+        android:layout_marginStart="351dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLogin"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+
+
+
+</RelativeLayout>

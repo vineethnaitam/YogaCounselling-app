@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".athlete">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fem"
+            android:layout_width="213dp"
+            android:layout_height="329dp"
+            android:src="@drawable/femaleathlete" />
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="182dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/fem"
+            android:text="FEMALE"
+            android:layout_marginStart="20dp"/>
+
+        <ImageView
+            android:id="@+id/men"
+            android:layout_width="213dp"
+            android:layout_height="329dp"
+            android:src="@drawable/maleathlete"
+            android:layout_below="@id/one"
+            android:layout_marginStart="190dp"
+            />
+        <Button
+            android:id="@+id/two"
+            android:layout_width="182dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/men"
+            android:text="MALE"
+            android:layout_marginStart="208dp"
+            android:layout_marginBottom="30dp"
+            />
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="ENGLISH"><b>ENGLISH\n</b><br>Yoga is a path towards total harmony of body, mind, and spirit.\n</br>
+        <br>The word Yoga comes from the Sanskrit word yuj, which means union.\n</br> <br>Union of the individual consciousness with the universal consciousness.\n</br>
+        <br>Yoga is not merely a form of exercise for the body.\n</br> <br>It is an ancient wisdom - for a healthier, happier, and more peaceful way of living - which ultimately leads to union with the Self.\n</br>
+        <br>It is an inherent desire in humans to be happy.\n</br> <br>The ancient sages, through inquiry about life, were able to reach a state of consciousness in which the secrets of healthier, happier, and meaningful living were revealed to them.\n</br>
+        <br>Though yoga comes from Hinduism, the knowledge of yoga transcends any religion or culture.\n</br> <br>Its application is universal!\n</br>
+        <br><b>Benefits:-\n</b></br>
+        <br>1.Channelises energy flow.\n</br>
+        <br>2.Improves the flexibility of muscles, range of motions of joints.\n</br>
+        <br>3.Corrects the posture and alignment of the body.\n</br>
+        <br>4.Regulates the digestive, endocrine, and circulatory systems.\n</br>
+        <br>5.Strengthens and revitalizes the internal organs, leading to a healthy and youthful body.\n</br>
+        <br>6.Helps to lose weight, cure asthma, diabetes, heart problems, and many chronic diseases.\n</br>
+        <br>7.Helps in releasing toxins from the body.\n</br>
+    </string>
+    <string name="MARATHI"><b>MARATHI\n</b><br>योग हा शरीर, मन आणि आत्म्याच्या संपूर्ण सलोख्याकडे जाणारा मार्ग आहे.\n</br> <br>योग हा शब्द युज या संस्कृत शब्दातून आला आहे, ज्याचा अर्थ संघआहे. वैश्विक जाणिवेशी वैयक्तिक जाणिवेचे संघनन.\n</br>
+    <br>योग हा केवळ शरीरासाठी व्यायामाचा प्रकार नाही. हे एक प्राचीन शहाणपण आहे - निरोगी, आनंदी आणि अधिक शांततापूर्ण जगण्याच्या मार्गासाठी - जे शेवटी स्वत: शी एकरूप होते.\n</br>
+    <br>आनंदी राहण्याची मानवांमध्ये एक अंगभूत इच्छा आहे. प्राचीन ऋषींनी जीवनाविषयी चौकशी करून चैतन्याच्या स्थितीपर्यंत पोहोचू शकले, ज्यात निरोगी, आनंदी आणि अर्थपूर्ण जीवनजगण्याची रहस्ये त्यांना उघड झाली.\n</br>
+    <br>योग जरी हिंदू धर्मातून आला असला तरी योगाचे ज्ञान कोणत्याही धर्मकिंवा संस्कृतीच्या पलीकडे जाते. त्याचा वापर सार्वत्रिक आहे!\n</br>
+    <br><b>फायदे:-\n</b></br>
+    <br>1.शरीरातील विषारी पदार्थ सोडण्यास मदत करते.\n</br>
+    <br>2.ऊर्जा प्रवाहाचे चॅनेलीकरण करते.\n</br>
+    <br>3.स्नायूंची लवचिकता, सांध्याच्या हालचालींची श्रेणी सुधारते.\n</br>
+    <br>4.शरीराची मुद्रा आणि संरेखन सुधारते.\n</br>
+    <br>5.पचन, अंतःस्रावी आणि रक्ताभिसरण प्रणालीचे नियमन करते.\n</br>
+    <br>6.अंतर्गत अवयवांना बळकट ी आणि पुनरुज्जीवित करते, ज्यामुळे निरोगी आणि तारुण्यपूर्ण शरीर होते.\n</br>
+    <br>7.वजन कमी करण्यास, दमा, मधुमेह, हृदयाच्या समस्या आणि अनेक जुनाट आजार बरे करण्यास मदत करते.\n</br>
+    </string>
+    <string name="HINDI"><b>HINDI\n</b><br>योग शरीर, मन और आत्मा के संपूर्ण सामंजस्य की दिशा में एक मार्ग है।\n</br>
+    <br>योग शब्द संस्कृत शब्द युज से आता है, जिसका अर्थ है संघ। सार्वभौमिक चेतना के साथ व्यक्तिगत चेतना का संघ।\n</br>
+    <br>योग केवल शरीर के लिए व्यायाम का एक रूप नहीं है। यह एक प्राचीन ज्ञान है-एक स्वस्थ, खुश, और रहने का अधिक शांतिपूर्ण तरीका के लिए-जो अंततः स्वयं के साथ संघ की ओर जाता है ।\n</br>
+    <br>यह मनुष्यों में एक अंतर्निहित इच्छा है कि वे खुश रहें। प्राचीन ऋषियों ने जीवन के बारे में जांच के माध्यम से चेतना की ऐसी स्थिति तक पहुंचने में सफल रहे, जिसमें स्वस्थ, खुशहाल और सार्थक जीवन के रहस्यों का उन्हें पता चला।\n</br>
+    <br>हालांकि योग हिंदू धर्म से आता है, लेकिन योग का ज्ञान किसी भी धर्म या संस्कृति से परे है। इसका आवेदन सार्वभौमिक है!\n</br>
+    <br><b>लाभ:-\n</b></br>
+    <br>1.शरीर से विषाक्त पदार्थों को छोड़ने में मदद करता है।\n</br>
+    <br>2.ऊर्जा प्रवाह को चैनलाइज करता है।\n</br>
+    <br>3.मांसपेशियों के लचीलेपन, जोड़ों की गति की सीमा में सुधार करता है।\n</br>
+    <br>4.शरीर की मुद्रा और संरेखण को सही करता है।\n</br>
+    <br>5.पाचन, अंतःस्रावी और संचार प्रणालियों को नियंत्रित करता है।\n</br>
+    <br>6.आंतरिक अंगों को मजबूत और पुनर्जीवित करता है, जिससे एक स्वस्थ और युवा शरीर होता है।\n</br>
+    <br>7.वजन कम करने में मदद करता है, अस्थमा, मधुमेह, दिल की समस्याओं, और कई पुरानी बीमारियों का इलाज।\n</br>
+    </string>
+    <string name="information">INFORMATION</string>
+    <string name="we_will_send_you_an_one_time_otp_on_this_given_mobile_number">We will send you an one time OTP on this given mobile number</string>
+
+
+    <string name="counselling"><br>Mental Health:\n</br>
+
+    <br>Mental health includes our emotional, psychological, and social well-being.\n</br>
+    <br>It affects how we think, feel, and act as we cope with life.\n</br>
+
+    <br>What are mental disorders?\n</br>
+    <br>Mental disorders are serious conditions which can affect your thinking, mood, and behavior.\n</br>
+    <br>They may be occasional or long-lasting.\n</br>
+    <br>They can affect your ability to relate to others and function each day.\n</br>
+
+    <br>Why is mental health important?\n</br>
+    <br>Emotional and mental health is important because it’s a vital part of your life and impacts your thoughts, behaviors and emotions.\n</br>
+    <br>Being healthy emotionally can promote productivity and effectiveness in all your activities.\n</br>
+
+    <br>What is counselling?\n</br>
+    <br>Counselling is a way of helping people to solve their own emotional, social, personal or interpersonal problems.\n</br>
+    <br>Counselling is not giving advice, or solving your problems on behalf of you.\n</br>
+    <br>In counselling counsellor guides you to look at problems with objective way.\n</br>
+    <br>Counsellor suggests strategies for managing and altering patterns of upsetting thoughts, feelings and behaviour.\n</br>
+        
+    </string>
+    <string name="title_activity_cinfo">cinfo</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="YogaLink">
+        <a href="https://en.wikipedia.org/wiki/Yoga">Read More</a>
+    </string>
+
+
+</resources>

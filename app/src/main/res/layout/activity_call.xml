@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".call">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/good"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:src="@drawable/fitness"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/good1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yoga Asana"
+            android:textStyle="bold"
+            android:layout_below="@id/good"/>
+
+        <ImageView
+            android:id="@+id/good2"
+            android:layout_width="400dp"
+            android:layout_height="192dp"
+            android:layout_below="@id/good1"
+            android:src="@drawable/yogainfo"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/good3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Session"
+            android:textStyle="bold"
+            android:layout_below="@id/good2"
+            android:backgroundTint="@color/red"/>
+
+        <ImageView
+            android:id="@+id/good4"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_below="@id/good3"
+            android:src="@drawable/yogainfo"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:id="@+id/good5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Importance Of Yoga"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/good4"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/yellow"/>
+    </RelativeLayout>
+
+</ScrollView>
